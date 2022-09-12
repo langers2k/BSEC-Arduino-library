@@ -1,12 +1,12 @@
 {
   "name": "BSEC Software Library",
-  "description": "Bosch Sensortec Environmental Cluster (BSEC) Software library for use with the BME680 has been conceptualized to provide higher-level signal processing and fusion for the BME680. The library receives compensated sensor values from the sensor API. It processes the BME680 signals to provide the requested sensor outputs.",
+  "description": "Bosch Sensortec Environmental Cluster (BSEC) Software library for use with the BME68x has been conceptualized to provide higher-level signal processing and fusion for the BME68x. The library receives compensated sensor values from the sensor API. It processes the BME68x signals to provide the requested sensor outputs.",
   "homepage": "https://www.bosch-sensortec.com/software-tools/software/bsec/",
   "repository": {
     "type": "git",
     "url": "https://github.com/BoschSensortec/BSEC-Arduino-library"
   },
-  "version": "1.6.1480",
+  "version": "1.6.1492",
   "authors": {
     "name": "Bosch Sensortec",
     "email": "contact@bosch-sensortec.com"
@@ -29,9 +29,9 @@
       "files": ["basic_config_state.ino"]
     },
     {
-      "name": "Basic usage with config state saves and multiple sensors",
-      "base": "examples/basic_config_state_multi",
-      "files": ["basic_config_state_multi.ino"]
+      "name": "Basic usage with config state saves and ULP/LP",
+      "base": "examples/basic_config_state_ULP_LP",
+      "files": ["basic_config_state_ULP_LP.ino"]
     },
     {
       "name": "Basic usage with config state saves and triggered ULP plus measurements",
@@ -39,9 +39,9 @@
       "files": ["basic_config_state_ulp_plus.ino"]
     },
     {
-      "name": "ESP32 deep sleep",
-      "base": "examples/esp32DeepSleep",
-      "files": ["esp32DeepSleep.ino"]
+      "name": "octopus demo",
+      "base": "examples/octopus_demo",
+      "files": ["octopus_demo.ino"]
     }
   ]
 }
